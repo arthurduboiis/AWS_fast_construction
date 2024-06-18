@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/hello', (req, res) => {
-    res.send('Hello Jest!');
+    res.send('Hello Jest2!');
 });
 
 module.exports = app;
